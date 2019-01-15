@@ -14,6 +14,7 @@
         <counts>
           <entry key="project.closed" value="10" />
           <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -22,7 +23,7 @@
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -68,11 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/post/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
+            <state relative-caret-position="775">
               <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-              <folding>
-                <element signature="e#559#565#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -198,6 +196,7 @@
       <workItem from="1547456751125" duration="352000" />
       <workItem from="1547457558577" duration="3530000" />
       <workItem from="1547492565350" duration="5544000" />
+      <workItem from="1547545323073" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="String and it's functions..">
       <created>1547287724234</created>
@@ -280,10 +279,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29475000" />
+    <option name="totallyTimeSpent" value="29849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="761" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.30099857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -462,11 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/post/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="775">
           <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-          <folding>
-            <element signature="e#559#565#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

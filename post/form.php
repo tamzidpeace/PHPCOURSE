@@ -38,6 +38,8 @@ if (isset($_POST["Submit"])) {
         <input id="Password" type="Password" name="Password"> <br> <br>
         <input type="Submit" name="Submit" value="Submitted">
 
+        <!-- change 1-->
+
 
     </form>
 
