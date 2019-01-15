@@ -6,7 +6,7 @@ if (isset($_POST["Submit"])) {
 
     $Password = $_POST["Password"];
 
-    if ($Username == "arafat" && $Password == "arafat")
+    if ($Username == "arafat" && $Password == 1234)
         echo "welcome";
 
     else echo "good bye";

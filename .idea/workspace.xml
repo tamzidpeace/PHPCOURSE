@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c83b0154-d2af-4b1f-adff-bc86e62e508e" name="Default Changelist" comment="" />
+    <list default="true" id="c83b0154-d2af-4b1f-adff-bc86e62e508e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/post/form_handling.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/post/form.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,23 +32,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="15" />
+          <entry key="php" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="15" />
+          <entry key="PHP" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3470" />
+          <entry key="php" value="3731" />
           <entry key="txt" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3470" />
+          <entry key="PHP" value="3731" />
           <entry key="PLAIN_TEXT" value="145" />
         </counts>
       </usages-collector>
@@ -66,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state relative-caret-position="136">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/post/form_handling.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -100,6 +113,7 @@
         <option value="$PROJECT_DIR$/reuseMyFunction.php" />
         <option value="$PROJECT_DIR$/SuperGlobalVariable.php" />
         <option value="$PROJECT_DIR$/post/form.php" />
+        <option value="$PROJECT_DIR$/post/form_handling.php" />
       </list>
     </option>
   </component>
@@ -196,7 +210,7 @@
       <workItem from="1547456751125" duration="352000" />
       <workItem from="1547457558577" duration="3530000" />
       <workItem from="1547492565350" duration="5544000" />
-      <workItem from="1547545323073" duration="374000" />
+      <workItem from="1547545323073" duration="2546000" />
     </task>
     <task id="LOCAL-00001" summary="String and it's functions..">
       <created>1547287724234</created>
@@ -279,7 +293,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29849000" />
+    <option name="totallyTimeSpent" value="32021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="761" height="991" extended-state="0" />
@@ -462,8 +476,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/post/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/form_handling.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
