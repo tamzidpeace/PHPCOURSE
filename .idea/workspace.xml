@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83b0154-d2af-4b1f-adff-bc86e62e508e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post/FormValidationProject.php" beforeDir="false" afterPath="$PROJECT_DIR$/post/FormValidationProject.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +14,7 @@
     <session id="37220906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -42,14 +41,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="4083" />
-          <entry key="txt" value="166" />
+          <entry key="php" value="4279" />
+          <entry key="txt" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="4083" />
-          <entry key="PLAIN_TEXT" value="166" />
+          <entry key="PHP" value="4279" />
+          <entry key="PLAIN_TEXT" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -91,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/post/FormValidationProject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="578">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -221,7 +220,7 @@
       <workItem from="1547457558577" duration="3530000" />
       <workItem from="1547492565350" duration="5544000" />
       <workItem from="1547545323073" duration="3340000" />
-      <workItem from="1547629787665" duration="2096000" />
+      <workItem from="1547629787665" duration="4301000" />
     </task>
     <task id="LOCAL-00001" summary="String and it's functions..">
       <created>1547287724234</created>
@@ -307,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547629941893</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="formvalidationproject responsive">
+      <created>1547632155974</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547632155974</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34911000" />
+    <option name="totallyTimeSpent" value="37116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="0" width="761" height="991" extended-state="0" />
@@ -405,7 +411,8 @@
     <MESSAGE value="reuseFunction" />
     <MESSAGE value="super global variable" />
     <MESSAGE value="formvalidationproject" />
-    <option name="LAST_COMMIT_MESSAGE" value="formvalidationproject" />
+    <MESSAGE value="formvalidationproject responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="formvalidationproject responsive" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test.php" />
@@ -509,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/post/FormValidationProject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="578">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
         </state>
       </provider>
     </entry>
