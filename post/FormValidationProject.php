@@ -33,8 +33,10 @@
 	website:<br>
 	<input type="text" name="website"> * <br>
 	Comment:<br>
-	<input type="text" name="comment"> <br>
-	<input type="submit" name="submit" value="submit">
+<!--	<input type="text" name="comment"> <br>
+-->
+    <textarea name="Comment" rows="5" cols="25"></textarea> <br> <br>
+    <input type="submit" name="submit" value="submit">
 
 </form>
 
