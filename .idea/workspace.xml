@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83b0154-d2af-4b1f-adff-bc86e62e508e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DB&amp;PHP/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB&amp;PHP/Insert_Into_Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Array.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Array.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,8 @@
     <session id="37220906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -27,40 +27,41 @@
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="php" value="44" />
+          <entry key="php" value="45" />
           <entry key="phtml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PHP" value="46" />
+          <entry key="PHP" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="35" />
-          <entry key="php" value="6532" />
-          <entry key="txt" value="248" />
+          <entry key="php" value="6743" />
+          <entry key="txt" value="269" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="35" />
-          <entry key="PHP" value="6532" />
-          <entry key="PLAIN_TEXT" value="248" />
+          <entry key="PHP" value="6743" />
+          <entry key="PLAIN_TEXT" value="269" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -76,16 +77,25 @@
         <entry file="file://$PROJECT_DIR$/00.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <caret line="6" column="5" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DB&amp;PHP/Connection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DB&amp;PHP/Connection.php">
+        <entry file="file://$PROJECT_DIR$/DB&amp;PHP/Insert_Into_Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="322">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -138,6 +148,7 @@
         <option value="$PROJECT_DIR$/Practice/Array.php" />
         <option value="$PROJECT_DIR$/00.html" />
         <option value="$PROJECT_DIR$/DB&amp;PHP/Connection.php" />
+        <option value="$PROJECT_DIR$/DB&amp;PHP/Insert_Into_Database.php" />
       </list>
     </option>
   </component>
@@ -147,7 +158,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../php/PEAR" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1646" />
     <option name="y" value="391" />
@@ -247,7 +262,9 @@
       <workItem from="1547716078597" duration="2533000" />
       <workItem from="1547784697834" duration="13865000" />
       <workItem from="1547808250816" duration="702000" />
-      <workItem from="1547809438693" duration="1572000" />
+      <workItem from="1547809438693" duration="1890000" />
+      <workItem from="1547836867741" duration="579000" />
+      <workItem from="1547837709589" duration="501000" />
     </task>
     <task id="LOCAL-00001" summary="String and it's functions..">
       <created>1547287724234</created>
@@ -382,11 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547792344883</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="database connection">
+      <created>1547811075661</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547811075661</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62068000" />
+    <option name="totallyTimeSpent" value="63466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
@@ -487,7 +511,8 @@
     <MESSAGE value="cookie" />
     <MESSAGE value="session" />
     <MESSAGE value="server" />
-    <option name="LAST_COMMIT_MESSAGE" value="server" />
+    <MESSAGE value="database connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="database connection" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test.php" />
@@ -686,14 +711,21 @@
     <entry file="file://$PROJECT_DIR$/00.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <caret line="6" column="5" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DB&amp;PHP/Connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="253">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB&amp;PHP/Insert_Into_Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
         </state>
       </provider>
     </entry>
