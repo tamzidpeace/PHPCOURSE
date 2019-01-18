@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83b0154-d2af-4b1f-adff-bc86e62e508e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/GET/HTMLPages/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/GET/HTMLPages/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Contact.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Contact.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cookie/Cookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Array.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branching.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Branching.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Loops.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numbers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Numbers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/String.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperGlobalVariable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/SuperGlobalVariable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwitchStatements.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/SwitchStatements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDefineFunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/UserDefineFunctions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/example.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if_else.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/if_else.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reuseMyFunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/reuseMyFunction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/variable.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,24 +48,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="38" />
+          <entry key="html" value="1" />
+          <entry key="php" value="39" />
           <entry key="phtml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="40" />
+          <entry key="HTML" value="1" />
+          <entry key="PHP" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="5108" />
+          <entry key="php" value="5471" />
           <entry key="txt" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="5108" />
+          <entry key="PHP" value="5471" />
           <entry key="PLAIN_TEXT" value="225" />
         </counts>
       </usages-collector>
@@ -64,78 +79,26 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="565">
-                  <caret line="170" column="18" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/About.inc.php">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Contact.inc.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/post/FormValidationProject.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-392">
-                  <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Home.inc.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="611">
-                  <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/ShareWithFriend.inc.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2047">
-                  <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
-                  <folding>
-                    <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/post/FormValidationProject.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="92" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cookie/Cookie.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -178,6 +141,7 @@
         <option value="$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Home.inc.php" />
         <option value="$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Contact.inc.php" />
         <option value="$PROJECT_DIR$/GET/HTMLPages/Index.php" />
+        <option value="$PROJECT_DIR$/Cookie/Cookie.php" />
       </list>
     </option>
   </component>
@@ -208,16 +172,6 @@
               <item name="PHPCOURSE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="PHPCOURSE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="GET" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PHPCOURSE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="post" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -241,6 +195,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHPCOURSE\Practice" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -283,7 +242,7 @@
       <workItem from="1547629787665" duration="4301000" />
       <workItem from="1547662890946" duration="6280000" />
       <workItem from="1547716078597" duration="2533000" />
-      <workItem from="1547784697834" duration="4850000" />
+      <workItem from="1547784697834" duration="6896000" />
     </task>
     <task id="LOCAL-00001" summary="String and it's functions..">
       <created>1547287724234</created>
@@ -401,7 +360,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50779000" />
+    <option name="totallyTimeSpent" value="52825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
@@ -503,84 +462,84 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test.php" />
-    <entry file="file://$PROJECT_DIR$/String.php">
+    <entry file="file://$PROJECT_DIR$/Practice/String.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/variable.php">
+    <entry file="file://$PROJECT_DIR$/Practice/variable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Constants.php">
+    <entry file="file://$PROJECT_DIR$/Practice/Constants.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Numbers.php">
+    <entry file="file://$PROJECT_DIR$/Practice/Numbers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/if_else.php">
+    <entry file="file://$PROJECT_DIR$/Practice/if_else.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array.php">
+    <entry file="file://$PROJECT_DIR$/Practice/Array.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Loops.php">
+    <entry file="file://$PROJECT_DIR$/Practice/Loops.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Branching.php">
+    <entry file="file://$PROJECT_DIR$/Practice/Branching.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SwitchStatements.php">
+    <entry file="file://$PROJECT_DIR$/Practice/SwitchStatements.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reuseMyFunction.php">
+    <entry file="file://$PROJECT_DIR$/Practice/reuseMyFunction.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UserDefineFunctions.php">
+    <entry file="file://$PROJECT_DIR$/Practice/UserDefineFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SuperGlobalVariable.php">
+    <entry file="file://$PROJECT_DIR$/Practice/SuperGlobalVariable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
@@ -603,13 +562,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GET/File1.phtml" />
     <entry file="file://$PROJECT_DIR$/GET/HTML Pages/Index.php" />
-    <entry file="file://$PROJECT_DIR$/00.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GET/HTMLPages/newpages/About.inc.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -630,26 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/About.inc.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/ShareWithFriend.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2047">
-          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Home.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
@@ -681,12 +613,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post/FormValidationProject.php">
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-392">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="496">
+          <caret line="170" column="18" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/About.inc.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Contact.inc.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -695,10 +630,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Index.php">
+    <entry file="file://$PROJECT_DIR$/post/FormValidationProject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="170" column="18" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
+        <state relative-caret-position="-392">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Home.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/ShareWithFriend.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2047">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cookie/Cookie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
