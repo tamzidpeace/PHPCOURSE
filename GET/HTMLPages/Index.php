@@ -168,7 +168,7 @@
             if (!empty($_GET['PageName'])) {
                 $PagesFolder = scandir($PagesDirectory, 0);
                 unset($PagesFolder[0], $PagesFolder[1]);
-                print_r($PagesFolder);
+                //print_r($PagesFolder);
                 $PageName = $_GET['PageName'];
                 //echo $PageName;
                 if (in_array($PageName . '.inc.php', $PagesFolder)) {
