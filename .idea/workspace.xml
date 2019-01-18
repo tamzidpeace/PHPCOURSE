@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83b0154-d2af-4b1f-adff-bc86e62e508e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GET/File1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GET/File2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +14,14 @@
     <session id="37220906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.33" value="1" />
@@ -29,30 +29,30 @@
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="21" />
+          <entry key="php" value="32" />
           <entry key="phtml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="23" />
+          <entry key="PHP" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="4747" />
-          <entry key="txt" value="206" />
+          <entry key="php" value="5077" />
+          <entry key="txt" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="4747" />
-          <entry key="PLAIN_TEXT" value="206" />
+          <entry key="PHP" value="5077" />
+          <entry key="PLAIN_TEXT" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -65,24 +65,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GET/File1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GET/File2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -91,7 +73,57 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="166" column="45" selection-start-line="166" selection-start-column="45" selection-end-line="166" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/About.inc.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Contact.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1025">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Home.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/ShareWithFriend.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2047">
+              <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/head</find>
+      <find>main are</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,6 +155,11 @@
         <option value="$PROJECT_DIR$/00.html" />
         <option value="$PROJECT_DIR$/GET/File1.php" />
         <option value="$PROJECT_DIR$/GET/File2.php" />
+        <option value="$PROJECT_DIR$/GET/HTMLPages/Pages Folder/About.inc.php" />
+        <option value="$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Contact.inc.php" />
+        <option value="$PROJECT_DIR$/GET/HTMLPages/Pages Folder/ShareWithFriend.inc.php" />
+        <option value="$PROJECT_DIR$/GET/HTMLPages/Index.php" />
+        <option value="$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Home.inc.php" />
       </list>
     </option>
   </component>
@@ -133,7 +170,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1359" />
     <option name="width" value="755" />
     <option name="height" value="991" />
@@ -157,6 +194,19 @@
               <item name="PHPCOURSE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="GET" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PHPCOURSE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="GET" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="HTMLPages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PHPCOURSE" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="GET" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="HTMLPages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Pages Folder" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -221,7 +271,9 @@
       <workItem from="1547492565350" duration="5544000" />
       <workItem from="1547545323073" duration="3340000" />
       <workItem from="1547629787665" duration="4301000" />
-      <workItem from="1547662890946" duration="6232000" />
+      <workItem from="1547662890946" duration="6280000" />
+      <workItem from="1547716078597" duration="2533000" />
+      <workItem from="1547784697834" duration="3935000" />
     </task>
     <task id="LOCAL-00001" summary="String and it's functions..">
       <created>1547287724234</created>
@@ -328,17 +380,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547670645541</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="use of post method">
+      <created>1547671889017</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547671889017</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43348000" />
+    <option name="totallyTimeSpent" value="49864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1359" y="0" width="755" height="991" extended-state="0" />
+    <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29957205" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2985437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -429,7 +488,8 @@
     <MESSAGE value="formvalidationproject responsive" />
     <MESSAGE value="url encoding" />
     <MESSAGE value="template" />
-    <option name="LAST_COMMIT_MESSAGE" value="template" />
+    <MESSAGE value="use of post method" />
+    <option name="LAST_COMMIT_MESSAGE" value="use of post method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test.php" />
@@ -545,16 +605,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GET/File1.phtml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/File1.phtml" />
     <entry file="file://$PROJECT_DIR$/GET/URL.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -573,6 +624,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTML Pages/Index.php" />
+    <entry file="file://$PROJECT_DIR$/00.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/newpages/About.inc.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/newpages/Contact.inc.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/newpages/Home.inc.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/newpages/ShareWithFriend.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3508">
+          <caret line="310" column="3" lean-forward="true" selection-start-line="310" selection-start-column="3" selection-end-line="310" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Torrent Downloads/[FreeTutorials.Us] the-complete-php-mysql-professional-course/PHPCOURSE/GET/Project/Dynamic Web Pages/Pages Folder/ShareWithFriend.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/About.inc.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="166" column="45" selection-start-line="166" selection-start-column="45" selection-end-line="166" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/ShareWithFriend.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2047">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Home.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET/HTMLPages/Pages Folder/Contact.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
