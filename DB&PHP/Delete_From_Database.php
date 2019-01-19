@@ -39,7 +39,7 @@
             <td> <?php echo $Dept; ?></td>
             <td> <?php echo $Salary; ?></td>
             <td> <?php echo $Home; ?></td>
-            <td>delete</td>
+            <td><a href="Delete.php?Delete=<?Php echo $id; ?>">delete</a></td>
             <td>update</td>
         </tr>
     <?php } ?>
