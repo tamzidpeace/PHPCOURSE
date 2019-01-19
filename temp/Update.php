@@ -45,7 +45,7 @@ while ($DataRows = mysql_fetch_array($update)) {
 // this block is for updating
 $Connection = mysql_connect('localhost', 'root', '');
 $Selected = mysql_select_db('record', $Connection);
-if (isset($_POST['submit'])) {
+if (isset($_POST['Submit'])) {
     $update_id = $_GET['Update_ID'];
     $ename = $_POST['Ename'];
     $ssn = $_POST['Ssn'];
