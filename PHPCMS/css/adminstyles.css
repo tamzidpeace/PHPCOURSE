@@ -34,3 +34,15 @@ body {
     background-color: #211f22;
     text-align: center;
 }
+
+.FieldInfo {
+    color: #3c763d;
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+    font-size: medium;
+}
+
+.FieldInfo2 {
+    color: #3c763d;
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+    font-size: x-large;
+}

@@ -1,3 +1,8 @@
+<?php
+require_once("Include/Sessions.php");
+require_once("Include/Functions.php");
+?>
+
 <!DOCTYPE html>
 <html lang="english">
 <head>
@@ -15,9 +20,8 @@
             <ul id="side-menu" class="nav nav-fills nav-stacked">
                 <li class="active"><a href="dashboard.php"><span class="glyphicon glyphicon-th"></span> Dashboard</a>
                 </li>
-                <li><a href="dashboard.php"><span class="glyphicon glyphicon-list-alt"></span> Add New Post</a></li>
-                <li><a href="dashboard.php"><span class="glyphicon glyphicon-tags"></span> Categories</a></li>
-                <li><a href="dashboard.php"><span class="glyphicon glyphicon-plus-sign"></span> Add New Post</a></li>
+                <li><a href="addnewpost.php"><span class="glyphicon glyphicon-list-alt"></span> Add New Post</a></li>
+                <li><a href="categories.php"><span class="glyphicon glyphicon-tags"></span> Categories</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-user"></span> Manage Admins</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-comment"></span> Comments</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-equalizer"></span> Live Blog</a></li>
@@ -26,6 +30,8 @@
         </div> <!-- end of col-sm-2-->
         <div class="col-sm-10">
             <h1>Admin Dashboard</h1>
+            <div><?php echo Message();
+                echo SuccessMessage(); ?></div>
             <h4>About</h4>
             <p>
                 XAMPP has been around for more than 10 years – there is a huge community behind it. You can get involved
