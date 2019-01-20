@@ -1,0 +1,36 @@
+body {
+    background-color: #2f4050;
+}
+
+.col-sm-2 h2 {
+    color: white;
+}
+
+.col-sm-10 {
+    background-color: white;
+}
+
+#side-menu a {
+    color: #9fb1c2;
+}
+
+#side-menu .active a {
+    color: white;
+    background-color: #27aae1;
+    font-weight: bold;
+}
+
+#side-menu a:hover {
+    color: white;
+    background-color: #1ab394;
+    font-weight: bold;
+    display: block;
+}
+
+#footer {
+    padding: 10px;
+    border-top: 1px solid black;
+    color: #eeeeee;
+    background-color: #211f22;
+    text-align: center;
+}
