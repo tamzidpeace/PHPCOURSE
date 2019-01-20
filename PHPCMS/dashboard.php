@@ -20,7 +20,7 @@ require_once("Include/Functions.php");
             <ul id="side-menu" class="nav nav-fills nav-stacked">
                 <li class="active"><a href="dashboard.php"><span class="glyphicon glyphicon-th"></span> Dashboard</a>
                 </li>
-                <li><a href="addnewpost.php"><span class="glyphicon glyphicon-list-alt"></span> Add New Post</a></li>
+                <li><a href="AddNewPost.php"><span class="glyphicon glyphicon-list-alt"></span> Add New Post</a></li>
                 <li><a href="categories.php"><span class="glyphicon glyphicon-tags"></span> Categories</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-user"></span> Manage Admins</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-comment"></span> Comments</a></li>
