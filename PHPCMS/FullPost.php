@@ -11,7 +11,7 @@ require_once("Include/Functions.php");
 <!--head section-->
 
 <head>
-    <title></title>
+    <title>Full Blog Post</title>
     <link rel="stylesheet" type="" href="css/bootstrap.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -79,7 +79,8 @@ require_once("Include/Functions.php");
                 $ViewQuery = "SELECT * FROM admin_panel WHERE 
 datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'";
             } else {
-                $ViewQuery = "SELECT * FROM admin_panel ORDER BY datetime desc";
+                $PostIDFromURL = $_GET["id"];
+                $ViewQuery = "SELECT * FROM admin_panel where id='$PostIDFromURL' ORDER BY datetime desc";
             }
             $Execute = mysql_query($ViewQuery);
             while ($DataRows = mysql_fetch_array($Execute)) {
@@ -98,13 +99,8 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                         <p class="description">Category: <?php echo htmlentities($Category); ?>, Published on:
                             <?php echo htmlentities($DateTime); ?></p>
                         <p class="post"><?php
-                            if (strlen($Post) > 150) {
-                                $Post = substr($Post, 0, 150) . "...";
-                            }
                             echo $Post; ?></p>
                     </div>
-                    <a href="FullPost.php?id=<?php echo $PostId; ?>"><span
-                                class="btn btn-info"> Read More &rsaquo;&rsaquo;</span></a>
                 </div>
             <?php } ?>
         </div>
