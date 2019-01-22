@@ -33,6 +33,10 @@ body {
     color: #eeeeee;
     background-color: #211f22;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .FieldInfo {
@@ -45,4 +49,14 @@ body {
     color: #3c763d;
     font-family: Bitter, Georgia, Times, "Times New Roman", serif;
     font-size: x-large;
+}
+
+.navbar-nav li {
+    font-weight: bold;
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.2em;
+}
+
+.Line {
+    margin-top: -20px;
 }

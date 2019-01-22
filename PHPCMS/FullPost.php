@@ -113,11 +113,11 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
         </div>
     </div>
 
-    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
 
 
 </div>
-
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 <!--end of main area section-->
 
 <!--footer section-->
