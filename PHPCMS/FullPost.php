@@ -138,6 +138,27 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
             <?php } ?>
 
             <div>
+                <span class="FieldInfo">Comments:<br></span>
+                <?php
+                $ConnectingDB;
+                $PostIdForComments = $_GET["id"];
+                $ExtractingCommentQuery = "select * from commets where admin_panel_id='$PostIdForComments'";
+                $Execute = mysql_query($ExtractingCommentQuery);
+                while ($DataRows = mysql_fetch_array($Execute)) {
+                    $CommentDate = $DataRows["datetime"];
+                    $CommentName = $DataRows["name"];
+                    $CommentbyUsers = $DataRows["comment"];
+                    ?>
+                    <div>
+                        <img class="pull-left" src="Upload/comment.png" height="50px" width="50px">
+                        <p> <?php echo $CommentDate; ?></p>
+                        <p> <?php echo $CommentName; ?></p>
+                        <p> <?php echo $CommentbyUsers; ?></p>
+                    </div>
+                <?php } ?>
+            </div>
+
+            <div>
                 <span class="FieldInfo"><br>Share Your Comment <br> <br></span>
             </div>
 
