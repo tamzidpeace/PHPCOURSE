@@ -137,8 +137,9 @@ datetime='$DateTime', title='$Title', category='$Category', author='$Admin', ima
         </div>
 
     </div>
+    <br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
 </div>
-<br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
+
 <!--end of container class-->
 
 <!--start of footer section-->

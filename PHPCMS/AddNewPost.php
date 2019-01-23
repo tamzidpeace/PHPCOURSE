@@ -71,7 +71,7 @@ if (isset($_POST["Submit"])) {
             <h1 class="FieldInfo2">Add New Post</h1>
             <div><?php echo Message();
                 echo SuccessMessage(); ?></div>
-            <div>
+            <div> <!-- start the from -->
                 <form action="AddNewPost.php" method="post" enctype="multipart/form-data">
                     <fieldset>
                         <div class="form-group">
@@ -116,6 +116,9 @@ if (isset($_POST["Submit"])) {
         </div>
 
     </div>
+
+    <br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
+
 </div>
 
 <!--end of container class-->

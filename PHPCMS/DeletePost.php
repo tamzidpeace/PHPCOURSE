@@ -17,13 +17,7 @@ if (isset($_POST["Submit"])) {
     $Admin = "Arafat";
     $Image = $_FILES["Image"]["name"];
     $Target = "Upload/" . basename($_FILES["Image"]["name"]);
-    if (empty($Title)) {
-        $_SESSION["ErrorMessage"] = "Title must be filled out";
-        Redirect_to("AddNewPost.php");
-    } elseif (strlen($Title) < 2) {
-        $_SESSION["ErrorMessage"] = "Title must be at least 2 character";
-        Redirect_to("AddNewPost.php");
-    } else {
+
         global $ConnectingDB;
         $DeleteFromUrl = $_GET["Delete"];
         $Query = "delete from admin_panel where id = $DeleteFromUrl";
@@ -37,7 +31,6 @@ if (isset($_POST["Submit"])) {
             Redirect_to("Dashboard.php");
         }
     }
-}
 ?>
 
 <!DOCTYPE html>
@@ -137,8 +130,9 @@ if (isset($_POST["Submit"])) {
         </div>
 
     </div>
+    <br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
 </div>
-<br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
+
 <!--end of container class-->
 
 <!--start of footer section-->

@@ -103,6 +103,38 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                     </div>
                 </div>
             <?php } ?>
+
+            <div>
+                <span class="FieldInfo"><br>Share Your Comment <br> <br></span>
+            </div>
+
+            <div> <!-- start the from -->
+                <form action="AddNewPost.php" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <div class="form-group">
+                            <label for="name"><span class="FieldInfo">Title:</span></label>
+                            <input class="form-control" type="text" name="Name" id="Name"
+                                   placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><span class="FieldInfo">Email:</span></label>
+                            <input class="form-control" type="email" name="Email" id="Email" placeholder="Email">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="Commentarea"><span class="FieldInfo">Comment:</span></label>
+                            <textarea class="form-control" name="Post" id="Commentarea"
+                                      placeholder="Comment"></textarea>
+                        </div>
+                        <br>
+                        <input class="btn btn-primary" type="Submit" name="Submit" value="Submit Comment">
+                        <br>
+
+                    </fieldset>
+                </form>
+            </div> <!-- end of form -->
+
+
         </div>
         <div style="background: #2b542c" class="col-sm-offset-1 col-sm-3"> <!--sidebar section-->
             <h2> side section</h2>
@@ -113,11 +145,10 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
         </div>
     </div>
 
-
-
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
 </div>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
 <!--end of main area section-->
 
 <!--footer section-->
