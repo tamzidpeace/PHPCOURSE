@@ -4,6 +4,7 @@ require_once("Include/Functions.php");
 require_once("Include/DB.php");
 ?>
 
+
 <!DOCTYPE html>
 <html lang="english">
 <head>
@@ -109,7 +110,23 @@ require_once("Include/DB.php");
                             <td><?php echo $Admin; ?></td>
                             <td><?php echo $Category; ?></td>
                             <td><img src="Upload/<?php echo $Image; ?>" width="100px" height="100px"></td>
-                            <td>Processing</td>
+                            <td>
+                                <?php
+                                $ConnectingDB;
+                                $QueryApproved = "select count(*) from commets where admin_panel_id='$Id' and status='ON'";
+                                $QueryNotApproved = "select count(*) from commets where admin_panel_id='$Id' and status='OFF'";
+                                $ExecuteApproved = mysql_query($QueryApproved);
+                                $ExecuteNotApproved = mysql_query($QueryNotApproved);
+                                $RowsApproved = mysql_fetch_array($ExecuteApproved);
+                                $RowsNotApproved = mysql_fetch_array($ExecuteNotApproved);
+                                $TotalApproved = array_shift($RowsApproved);
+                                $TotalNotApproved = array_shift($RowsNotApproved);
+
+                                ?>
+                                <p class="text-success h4" ">Approved: <?php echo $TotalApproved; ?></p>
+                                <p class="text-danger h4">Pending: <?php echo $TotalNotApproved; ?></p>
+
+                            </td>
                             <td>
                                 <a href="EditPost.php?Edit=<?php echo $Id; ?>"><span class="btn btn-warning">Edit</span></a>
                                 <a href="DeletePost.php?Delete=<?php echo $Id; ?>"><span

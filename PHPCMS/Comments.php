@@ -4,6 +4,10 @@ require_once("Include/Functions.php");
 require_once("Include/DB.php");
 ?>
 
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="english">
 <head>
@@ -62,7 +66,14 @@ require_once("Include/DB.php");
                 <li><a href="AddNewPost.php"><span class="glyphicon glyphicon-list-alt"></span> Add New Post</a></li>
                 <li><a href="categories.php"><span class="glyphicon glyphicon-tags"></span> Categories</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-user"></span> Manage Admins</a></li>
-                <li class="active"><a href="Comments.php"><span class="glyphicon glyphicon-comment"></span> Comments</a>
+                <li class="active"><a href="Comments.php">
+                        <span class="glyphicon glyphicon-comment"></span> Comments<?php
+                        $ConnectingDB;
+                        $Query = "select count(*) from commets where status='OFF'";
+                        $Execute = mysql_query($Query);
+                        $RowsNotApproved = mysql_fetch_array($Execute);
+                        $TotalNotApprovedored = array_shift($RowsNotApproved);
+                        echo " " . $TotalNotApprovedored; ?></a>
                 </li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-equalizer"></span> Live Blog</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
