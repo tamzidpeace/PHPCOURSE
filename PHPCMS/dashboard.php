@@ -112,7 +112,7 @@ require_once("Include/DB.php");
                             <td>Processing</td>
                             <td>
                                 <a href="EditPost.php?Edit=<?php echo $Id; ?>"><span class="btn btn-warning">Edit</span></a>
-                                <a href="DeletePost.php?Edit=<?php echo $Id; ?>"><span
+                                <a href="DeletePost.php?Delete=<?php echo $Id; ?>"><span
                                             class="btn btn-danger">Delete</span></a>
                             <td>
                                 <a href="FullPost.php?id=<?php echo $Id; ?>"> <span

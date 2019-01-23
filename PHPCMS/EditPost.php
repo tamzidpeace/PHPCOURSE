@@ -50,6 +50,7 @@ datetime='$DateTime', title='$Title', category='$Category', author='$Admin', ima
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/adminstyles.css">
 </head>
+
 <body>
 <div class="container-fluid">
     <div class="row">
