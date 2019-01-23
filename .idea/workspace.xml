@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83b0154-d2af-4b1f-adff-bc86e62e508e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PHPCMS/Upload/comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPCMS/ApproveComments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPCMS/Comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPCMS/DeleteComment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPCMS/RevertApprove.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHPCMS/FullPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPCMS/FullPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPCMS/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPCMS/dashboard.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +53,7 @@
         <counts>
           <entry key="css" value="9" />
           <entry key="html" value="4" />
-          <entry key="php" value="89" />
+          <entry key="php" value="95" />
           <entry key="phtml" value="2" />
         </counts>
       </usages-collector>
@@ -57,23 +61,23 @@
         <counts>
           <entry key="CSS" value="9" />
           <entry key="HTML" value="4" />
-          <entry key="PHP" value="91" />
+          <entry key="PHP" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="624" />
           <entry key="html" value="35" />
-          <entry key="php" value="18018" />
-          <entry key="txt" value="809" />
+          <entry key="php" value="19110" />
+          <entry key="txt" value="838" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="624" />
           <entry key="HTML" value="35" />
-          <entry key="PHP" value="17986" />
-          <entry key="PLAIN_TEXT" value="809" />
+          <entry key="PHP" value="19078" />
+          <entry key="PLAIN_TEXT" value="838" />
           <entry key="SQL" value="32" />
         </counts>
       </usages-collector>
@@ -86,47 +90,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHPCMS/FullPost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="144" column="108" selection-start-line="144" selection-start-column="108" selection-end-line="144" selection-end-column="108" />
+            <state relative-caret-position="328">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHPCMS/AddNewPost.php">
+        <entry file="file://$PROJECT_DIR$/PHPCMS/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3013">
-              <caret line="131" column="43" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="43" />
+            <state relative-caret-position="414">
+              <caret line="57" column="27" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHPCMS/css/adminstyles.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHPCMS/Comments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="592">
+              <caret line="143" column="26" selection-start-line="143" selection-start-column="26" selection-end-line="143" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHPCMS/Blog.php">
+        <entry file="file://$PROJECT_DIR$/PHPCMS/DeleteComment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="184">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHPCMS/css/publicstyle.css">
+        <entry file="file://$PROJECT_DIR$/PHPCMS/RevertApprove.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHPCMS/ApproveComments.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -161,10 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test.php" />
-        <option value="$PROJECT_DIR$/Numbers.php" />
-        <option value="$PROJECT_DIR$/Array.php" />
-        <option value="$PROJECT_DIR$/if_else.php" />
         <option value="$PROJECT_DIR$/Loops.php" />
         <option value="$PROJECT_DIR$/SwitchStatements.php" />
         <option value="$PROJECT_DIR$/Branching.php" />
@@ -203,7 +212,6 @@
         <option value="$PROJECT_DIR$/PHPCMS/Include/DB.php" />
         <option value="$PROJECT_DIR$/PHPCMS/addnewpost.php" />
         <option value="$PROJECT_DIR$/00.html" />
-        <option value="$PROJECT_DIR$/PHPCMS/dashboard.php" />
         <option value="$PROJECT_DIR$/PHPCMS/categories.php" />
         <option value="$PROJECT_DIR$/PHPCMS/DeletePost.php" />
         <option value="$PROJECT_DIR$/PHPCMS/EditPost.php" />
@@ -211,7 +219,12 @@
         <option value="$PROJECT_DIR$/PHPCMS/css/publicstyle.css" />
         <option value="$PROJECT_DIR$/PHPCMS/css/adminstyles.css" />
         <option value="$PROJECT_DIR$/PHPCMS/Blog.php" />
+        <option value="$PROJECT_DIR$/PHPCMS/dashboard.php" />
         <option value="$PROJECT_DIR$/PHPCMS/FullPost.php" />
+        <option value="$PROJECT_DIR$/PHPCMS/ApproveComments.php" />
+        <option value="$PROJECT_DIR$/PHPCMS/RevertApprove.php" />
+        <option value="$PROJECT_DIR$/PHPCMS/DeleteComment.php" />
+        <option value="$PROJECT_DIR$/PHPCMS/Comments.php" />
       </list>
     </option>
   </component>
@@ -281,8 +294,8 @@
       <recent name="C:\xampp\htdocs\PHPCOURSE\Practice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\PHPCOURSE\PHPCMS\Upload" />
       <recent name="C:\xampp\htdocs\PHPCOURSE\PHPCMS" />
+      <recent name="C:\xampp\htdocs\PHPCOURSE\PHPCMS\Upload" />
       <recent name="C:\xampp\htdocs\PHPCOURSE\DB&amp;PHP" />
     </key>
   </component>
@@ -344,7 +357,7 @@
       <workItem from="1548215210528" duration="614000" />
       <workItem from="1548220661160" duration="12129000" />
       <workItem from="1548245281142" duration="2136000" />
-      <workItem from="1548257787651" duration="2252000" />
+      <workItem from="1548257787651" duration="10471000" />
     </task>
     <task id="LOCAL-00001" summary="String and it's functions..">
       <created>1547287724234</created>
@@ -612,17 +625,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548247947514</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="showing comments in full post">
+      <created>1548264336433</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1548264336434</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167857000" />
+    <option name="totallyTimeSpent" value="176076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20403226" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20403226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -700,7 +720,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="url encoding" />
     <MESSAGE value="template" />
     <MESSAGE value="use of post method" />
     <MESSAGE value="cookie" />
@@ -725,38 +744,11 @@
     <MESSAGE value="delete post" />
     <MESSAGE value="designing comment section for a post" />
     <MESSAGE value="creating foreign key" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating foreign key" />
+    <MESSAGE value="showing comments in full post" />
+    <option name="LAST_COMMIT_MESSAGE" value="showing comments in full post" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Practice/reuseMyFunction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practice/UserDefineFunctions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practice/SuperGlobalVariable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SendingEmail.php" />
     <entry file="file://$PROJECT_DIR$/GET/File1.phtml" />
     <entry file="file://$PROJECT_DIR$/GET/HTML Pages/Index.php" />
@@ -973,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHPCMS/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="114" column="62" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHPCMS/categories.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1029,10 +1014,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PHPCMS/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PHPCMS/FullPost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="144" column="108" selection-start-line="144" selection-start-column="108" selection-end-line="144" selection-end-column="108" />
+        <state relative-caret-position="328">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPCMS/ApproveComments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPCMS/RevertApprove.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPCMS/DeleteComment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPCMS/Comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="143" column="26" selection-start-line="143" selection-start-column="26" selection-end-line="143" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -142,7 +142,7 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                 <?php
                 $ConnectingDB;
                 $PostIdForComments = $_GET["id"];
-                $ExtractingCommentQuery = "select * from commets where admin_panel_id='$PostIdForComments'";
+                $ExtractingCommentQuery = "select * from commets where admin_panel_id='$PostIdForComments' and status='ON'";
                 $Execute = mysql_query($ExtractingCommentQuery);
                 while ($DataRows = mysql_fetch_array($Execute)) {
                     $CommentDate = $DataRows["datetime"];
