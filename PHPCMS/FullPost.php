@@ -5,6 +5,36 @@ require_once("Include/Sessions.php");
 require_once("Include/Functions.php");
 ?>
 
+<?php
+if (isset($_POST["Submit"])) {
+    $Name = mysql_real_escape_string($_POST["Name"]);
+    $Email = mysql_real_escape_string($_POST["Email"]);
+    $Comment = mysql_real_escape_string($_POST["Comment"]);
+    date_default_timezone_set("Asia/Dhaka");
+    $CurrentTime = time();
+    $DateTime = strftime("%B-%d-%Y %H:%M:%S", $CurrentTime);
+    $DateTime;
+    $PostId = $_GET["id"];
+    if (empty($Name) || empty($Email) || empty($Comment)) {
+        $_SESSION["ErrorMessage"] = "Title, Email and Comment must be filled out";
+    } elseif (strlen($Comment) > 300) {
+        $_SESSION["ErrorMessage"] = "Comment can't exceed 300 character";
+    } else {
+        global $ConnectingDB;
+        $Query = "insert into commets (datetime, name, email, comment, status) 
+values ('$DateTime', '$Name', '$Email', '$Comment', 'OFF')";
+        $Execute = mysql_query($Query);
+        if ($Execute) {
+            $_SESSION["SuccessMessage"] = "Comment submitted successfully";
+            Redirect_to("FullPost.php?id={$PostId}");
+        } else {
+            $_SESSION["ErrorMessage"] = "Something is wrong";
+            Redirect_to("FullPost.php?id={$PostId}");
+        }
+    }
+}
+?>
+
 <!DOCTYPE>
 <html>
 
@@ -67,6 +97,8 @@ require_once("Include/Functions.php");
 
 <div class="container">
     <div class="blog-header">
+        <div><?php echo Message();
+            echo SuccessMessage(); ?></div>
         <h1> the complete cms blog</h1>
         <p> this blog is developing using php only</p>
     </div>
@@ -109,10 +141,10 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
             </div>
 
             <div> <!-- start the from -->
-                <form action="AddNewPost.php" method="post" enctype="multipart/form-data">
+                <form action="FullPost.php?id=<?php echo $PostId; ?>" method="post" enctype="multipart/form-data">
                     <fieldset>
                         <div class="form-group">
-                            <label for="name"><span class="FieldInfo">Title:</span></label>
+                            <label for="name"><span class="FieldInfo">Name:</span></label>
                             <input class="form-control" type="text" name="Name" id="Name"
                                    placeholder="Name">
                         </div>
@@ -123,8 +155,7 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                         </div>
                         <div class="form-group">
                             <label for="Commentarea"><span class="FieldInfo">Comment:</span></label>
-                            <textarea class="form-control" name="Post" id="Commentarea"
-                                      placeholder="Comment"></textarea>
+                            <textarea class="form-control" name="Comment" id="Commentarea" placeholder="Comment"></textarea>
                         </div>
                         <br>
                         <input class="btn btn-primary" type="Submit" name="Submit" value="Submit Comment">
