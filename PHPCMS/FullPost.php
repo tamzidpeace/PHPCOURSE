@@ -21,8 +21,9 @@ if (isset($_POST["Submit"])) {
         $_SESSION["ErrorMessage"] = "Comment can't exceed 300 character";
     } else {
         global $ConnectingDB;
-        $Query = "insert into commets (datetime, name, email, comment, status) 
-values ('$DateTime', '$Name', '$Email', '$Comment', 'OFF')";
+        $PostIDFromURL = $_GET['id'];
+        $Query = "insert into commets (datetime, name, email, comment, status, admin_panel_id) 
+values ('$DateTime', '$Name', '$Email', '$Comment', 'OFF', '$PostIDFromURL')";
         $Execute = mysql_query($Query);
         if ($Execute) {
             $_SESSION["SuccessMessage"] = "Comment submitted successfully";

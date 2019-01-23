@@ -117,8 +117,6 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
         </div>
     </div>
 
-    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-
 
 </div>
 

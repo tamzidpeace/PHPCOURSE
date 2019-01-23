@@ -129,7 +129,7 @@ if (isset($_POST["Submit"])) {
     <hr>
     <p>Designed by Arafat. No right reserved</p>
     <a style="color: white; text-decoration: none; cursor: pointer; font-weight: bold;" href="dashboard.php">
-        <p> There is no God none but Allah <br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br></p>
+        <p> There is no God none but Allah </p>
     </a>
     <hr>
 </div>
