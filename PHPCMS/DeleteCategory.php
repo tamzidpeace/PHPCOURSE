@@ -8,14 +8,14 @@ require_once("Include/DB.php");
 if (isset($_GET["id"])) {
     $IdFromUrl = $_GET["id"];
     //$Query = "update commets set status = 'OFF' where id='$IdFromUrl'";
-    $Query = "delete from commets where id='$IdFromUrl'";
+    $Query = "delete from category where id='$IdFromUrl'";
     $Execute = mysql_query($Query);
     if ($Execute) {
-        $_SESSION["SuccessMessage"] = "Comment deleted successfully";
-        Redirect_to("Comments.php");
+        $_SESSION["SuccessMessage"] = "Category deleted successfully";
+        Redirect_to("categories.php");
     } else {
         $_SESSION["ErrorMessage"] = "Something is wrong";
-        Redirect_to("Comments.php");
+        Redirect_to("categories.php");
     }
 }
 

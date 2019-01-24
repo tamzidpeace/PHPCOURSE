@@ -10,7 +10,7 @@ if (isset($_GET["id"])) {
     $Query = "update commets set status = 'OFF' where id='$IdFromUrl'";
     $Execute = mysql_query($Query);
     if ($Execute) {
-        $_SESSION["SuccessMessage"] = "Comment approved successfully";
+        $_SESSION["SuccessMessage"] = "Comment revert successfully";
         Redirect_to("Comments.php");
     } else {
         $_SESSION["ErrorMessage"] = "Something is wrong";
