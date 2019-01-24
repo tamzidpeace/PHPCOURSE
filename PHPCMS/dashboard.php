@@ -66,7 +66,7 @@ Confirm_Login();
                 <li><a href="Admins.php"><span class="glyphicon glyphicon-user"></span> Manage Admins</a></li>
                 <li><a href="Comments.php"><span class="glyphicon glyphicon-comment"></span> Comments</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-equalizer"></span> Live Blog</a></li>
-                <li><a href="dashboard.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                <li><a href="Logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
             </ul>
         </div> <!-- end of col-sm-2-->
         <div class="col-sm-10">

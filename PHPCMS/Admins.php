@@ -15,7 +15,7 @@ if (isset($_POST["Submit"])) {
     //echo  $DateTime = strftime("%Y-%m-%d %H:%M:%S", $CurrentTime);
     $DateTime = strftime("%B-%d-%Y %H:%M:%S", $CurrentTime);
     $DateTime;
-    $Admin = "Arafat";
+    $Admin = $_SESSION["Username"];
     if (empty($Username) || empty($Password) || empty($ConfirmPassword)) {
         $_SESSION["ErrorMessage"] = "All fields must be filled out";
         Redirect_to("Admins.php");
