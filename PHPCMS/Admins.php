@@ -101,29 +101,29 @@ if (isset($_POST["Submit"])) {
                     <tr>
                         <th>Sr No.</th>
                         <th>Date & Time</th>
-                        <th>Category Name</th>
-                        <th>Creator Name</th>
-                        <th>Delete Category</th>
+                        <th>Admin Name</th>
+                        <th>Added By</th>
+                        <th>Action</th>
                     </tr>
                     <?php
                     global $ConnectingDB;
-                    $ViewQuery = "select * from category order by datetime desc";
+                    $ViewQuery = "select * from registration order by datetime desc";
                     $Execute = mysql_query($ViewQuery);
                     $SrNo = 0;
                     while ($DataRows = mysql_fetch_array($Execute)) {
                         $Id = $DataRows["id"];
                         $DateTime = $DataRows["datetime"];
-                        $CategoryName = $DataRows["name"];
-                        $CreatorName = $DataRows["creatorname"];
+                        $AdminName = $DataRows["username"];
+                        $AddedBy = $DataRows["addedby"];
                         $SrNo++;
 
                         ?>
                         <tr>
                             <td><?php echo $SrNo; ?></td>
                             <td><?php echo $DateTime; ?></td>
-                            <td><?php echo $CategoryName; ?></td>
-                            <td><?php echo $CreatorName; ?></td>
-                            <td><a href="DeleteCategory.php?id=<?php echo $Id; ?>"><span
+                            <td><?php echo $AdminName; ?></td>
+                            <td><?php echo $AddedBy; ?></td>
+                            <td><a href="DeleteAdmin.php?id=<?php echo $Id; ?>"><span
                                             class="btn btn-danger">Delete</span></a></td>
                         </tr>
                     <?php } ?>

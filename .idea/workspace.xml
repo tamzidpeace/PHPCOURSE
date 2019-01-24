@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83b0154-d2af-4b1f-adff-bc86e62e508e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PHPCMS/Admins.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPCMS/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPCMS/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPCMS/Admins.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPCMS/Admins.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,7 @@
         <counts>
           <entry key="css" value="624" />
           <entry key="html" value="35" />
-          <entry key="php" value="20092" />
+          <entry key="php" value="20161" />
           <entry key="txt" value="940" />
         </counts>
       </usages-collector>
@@ -72,7 +70,7 @@
         <counts>
           <entry key="CSS" value="624" />
           <entry key="HTML" value="35" />
-          <entry key="PHP" value="20060" />
+          <entry key="PHP" value="20129" />
           <entry key="PLAIN_TEXT" value="940" />
           <entry key="SQL" value="32" />
         </counts>
@@ -89,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHPCMS/Admins.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="207">
+              <caret line="109" column="57" selection-start-line="109" selection-start-column="57" selection-end-line="109" selection-end-column="57" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -322,7 +320,7 @@
       <workItem from="1548220661160" duration="12129000" />
       <workItem from="1548245281142" duration="2136000" />
       <workItem from="1548257787651" duration="15627000" />
-      <workItem from="1548303945554" duration="4559000" />
+      <workItem from="1548303945554" duration="5190000" />
     </task>
     <task id="LOCAL-00001" summary="String and it's functions..">
       <created>1547287724234</created>
@@ -615,7 +613,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185791000" />
+    <option name="totallyTimeSpent" value="186422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1010" extended-state="6" />
@@ -1042,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHPCMS/Admins.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="207">
+          <caret line="109" column="57" selection-start-line="109" selection-start-column="57" selection-end-line="109" selection-end-column="57" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
