@@ -132,7 +132,7 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                         <p class="description">Category: <?php echo htmlentities($Category); ?>, Published on:
                             <?php echo htmlentities($DateTime); ?></p>
                         <p class="post"><?php
-                            echo $Post; ?></p>
+                            echo nl2br($Post); ?></p>
                     </div>
                 </div>
             <?php } ?>
@@ -153,7 +153,7 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                         <img class="pull-left" src="Upload/comment.png" height="50px" width="50px">
                         <p> <?php echo $CommentDate; ?></p>
                         <p> <?php echo $CommentName; ?></p>
-                        <p> <?php echo $CommentbyUsers; ?></p>
+                        <p> <?php echo nl2br($CommentbyUsers); ?></p>
                     </div>
                 <?php } ?>
             </div>
