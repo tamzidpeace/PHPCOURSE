@@ -60,3 +60,8 @@ body {
 .Line {
     margin-top: -20px;
 }
+
+.loginpage {
+    color: skyblue;
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+}
