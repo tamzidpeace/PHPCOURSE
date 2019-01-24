@@ -26,3 +26,18 @@ function Login_Attempt($Username, $Password)
         return null;
     }
 }
+
+function Login()
+{
+    if (isset($_SESSION["User_Id"])) {
+        return true;
+    }
+}
+
+function Confirm_Login()
+{
+    if (!Login()) {
+        $_SESSION["ErrorMessage"] = "Login required!";
+        redirect_to("Login.php");
+    }
+}

@@ -2,6 +2,7 @@
 require_once("Include/DB.php");
 require_once("Include/Sessions.php");
 require_once("Include/Functions.php");
+Confirm_Login();
 ?>
 
 <?php
