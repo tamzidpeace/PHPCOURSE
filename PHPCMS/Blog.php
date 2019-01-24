@@ -78,8 +78,13 @@ require_once("Include/Functions.php");
                 $Search = $_GET["Search"];
                 $ViewQuery = "SELECT * FROM admin_panel WHERE 
 datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'";
+            } elseif (isset($_GET["Page"])) {
+                $Page = $_GET["Page"];
+                $ShowPostFrom = ($Page * 5) - 5;
+                if ($Page <= 0) $ShowPostFrom = 0;
+                $ViewQuery = "SELECT * FROM admin_panel ORDER BY datetime desc limit $ShowPostFrom,5";
             } else {
-                $ViewQuery = "SELECT * FROM admin_panel ORDER BY datetime desc";
+                $ViewQuery = "SELECT * FROM admin_panel ORDER BY datetime desc limit 0,5";
             }
             $Execute = mysql_query($ViewQuery);
             while ($DataRows = mysql_fetch_array($Execute)) {
