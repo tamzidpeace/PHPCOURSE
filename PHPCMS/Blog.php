@@ -112,7 +112,45 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                                 class="btn btn-info"> Read More &rsaquo;&rsaquo;</span></a>
                 </div>
             <?php } ?>
+            <nav>
+                <ul class="pagination pull-left pagination-lg">
+                    <?php if ($Page > 1) {
+                        ?>
+                        <li><a href="Blog.php?Page=<?php echo $Page - 1; ?>"> &laquo; </a></li>
+                    <?php } ?>
+                    <?php
+                    global $ConnectingDB;
+                    $QueryPagination = "select count(*) from admin_panel";
+                    $ExecutePagination = mysql_query($QueryPagination);
+                    $RowPagination = mysql_fetch_array($ExecutePagination);
+                    $TotalPosts = array_shift($RowPagination);
+                    $PostPerPage = $TotalPosts / 5;
+                    $PostPerPage = ceil($PostPerPage);
+                    //echo $PostPerPage;
+                    for ($i = 1;
+                         $i <= $PostPerPage;
+                         $i++) {
+                        if (isset($Page)) {
+                            if ($i == $Page) {
+                                ?>
+                                <li class="active"><a href="Blog.php?Page=<?php echo $i; ?>"><?php echo $i ?></a></li>
+
+                            <?php } else { ?>
+                                <li><a href="Blog.php?Page=<?php echo $i; ?>"><?php echo $i ?></a></li>
+                            <?php }
+                        }
+                    } ?>
+                    <?php if ($Page > 0 && $Page != $PostPerPage) {
+                        ?>
+                        <li><a href="Blog.php?Page=<?php echo $Page + 1; ?>"> &raquo; </a></li>
+                    <?php } ?>
+                </ul>
+            </nav>
+
+
         </div>
+
+
         <div style="background: #2b542c" class="col-sm-offset-1 col-sm-3"> <!--sidebar section-->
             <h2> side section</h2>
             <p style="color: #2b542c">PHP: Hypertext Preprocessor is a server-side scripting language designed for Web
@@ -121,6 +159,7 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                 PHP Group</p>
         </div>
     </div>
+    <br>
 
 
 </div>
