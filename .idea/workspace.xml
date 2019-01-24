@@ -4,6 +4,9 @@
     <list default="true" id="c83b0154-d2af-4b1f-adff-bc86e62e508e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHPCMS/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPCMS/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPCMS/FullPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPCMS/FullPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPCMS/Logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHPCMS/Logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPCMS/css/publicstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/PHPCMS/css/publicstyle.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +27,7 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="2" />
@@ -42,38 +46,38 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.79" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="11" />
+          <entry key="css" value="12" />
           <entry key="html" value="4" />
-          <entry key="php" value="117" />
+          <entry key="php" value="120" />
           <entry key="phtml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="11" />
+          <entry key="CSS" value="12" />
           <entry key="HTML" value="4" />
-          <entry key="PHP" value="119" />
+          <entry key="PHP" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="657" />
+          <entry key="css" value="685" />
           <entry key="html" value="35" />
-          <entry key="php" value="22608" />
-          <entry key="txt" value="1057" />
+          <entry key="php" value="23313" />
+          <entry key="txt" value="1079" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="657" />
+          <entry key="CSS" value="685" />
           <entry key="HTML" value="35" />
-          <entry key="PHP" value="22576" />
-          <entry key="PLAIN_TEXT" value="1057" />
+          <entry key="PHP" value="23281" />
+          <entry key="PLAIN_TEXT" value="1079" />
           <entry key="SQL" value="32" />
         </counts>
       </usages-collector>
@@ -87,32 +91,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHPCMS/categories.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHPCMS/Admins.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHPCMS/Blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="87" column="84" selection-start-line="87" selection-start-column="84" selection-end-line="87" selection-end-column="84" />
-              <folding>
-                <element signature="e#4705#4712#0#HTML" expanded="true" />
-                <element signature="e#6021#6028#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="780">
+              <caret line="229" column="8" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -120,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHPCMS/css/publicstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            <state relative-caret-position="1564">
+              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -129,39 +111,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHPCMS/FullPost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
-              <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="2392">
+              <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHPCMS/Logout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHPCMS/dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHPCMS/AddNewPost.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="23">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -230,7 +190,6 @@
         <option value="$PROJECT_DIR$/00.html" />
         <option value="$PROJECT_DIR$/PHPCMS/DeletePost.php" />
         <option value="$PROJECT_DIR$/PHPCMS/EditPost.php" />
-        <option value="$PROJECT_DIR$/PHPCMS/css/publicstyle.css" />
         <option value="$PROJECT_DIR$/PHPCMS/ApproveComments.php" />
         <option value="$PROJECT_DIR$/PHPCMS/DeleteCategory.php" />
         <option value="$PROJECT_DIR$/PHPCMS/DeleteComment.php" />
@@ -240,13 +199,14 @@
         <option value="$PROJECT_DIR$/PHPCMS/Login.php" />
         <option value="$PROJECT_DIR$/PHPCMS/Include/Functions.php" />
         <option value="$PROJECT_DIR$/PHPCMS/Comments.php" />
-        <option value="$PROJECT_DIR$/PHPCMS/Logout.php" />
         <option value="$PROJECT_DIR$/PHPCMS/dashboard.php" />
         <option value="$PROJECT_DIR$/PHPCMS/AddNewPost.php" />
         <option value="$PROJECT_DIR$/PHPCMS/categories.php" />
         <option value="$PROJECT_DIR$/PHPCMS/Admins.php" />
         <option value="$PROJECT_DIR$/PHPCMS/FullPost.php" />
         <option value="$PROJECT_DIR$/PHPCMS/Blog.php" />
+        <option value="$PROJECT_DIR$/PHPCMS/css/publicstyle.css" />
+        <option value="$PROJECT_DIR$/PHPCMS/Logout.php" />
       </list>
     </option>
   </component>
@@ -381,7 +341,8 @@
       <workItem from="1548245281142" duration="2136000" />
       <workItem from="1548257787651" duration="15627000" />
       <workItem from="1548303945554" duration="17946000" />
-      <workItem from="1548331811394" duration="12529000" />
+      <workItem from="1548331811394" duration="16928000" />
+      <workItem from="1548355787483" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="String and it's functions..">
       <created>1547287724234</created>
@@ -705,17 +666,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548344548144</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="show posts by category">
+      <created>1548350154260</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1548350154260</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211707000" />
+    <option name="totallyTimeSpent" value="216359000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="1358" y="-8" width="1296" height="1000" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20403226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20403226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -793,7 +761,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="insert data into database" />
     <MESSAGE value="view data from database" />
     <MESSAGE value="delete data from database" />
     <MESSAGE value="fetch and show into update field" />
@@ -818,7 +785,8 @@
     <MESSAGE value="work with pagination algorithm" />
     <MESSAGE value="Completing Pagination" />
     <MESSAGE value="comment format" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment format" />
+    <MESSAGE value="show posts by category" />
+    <option name="LAST_COMMIT_MESSAGE" value="show posts by category" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1117,13 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHPCMS/Logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHPCMS/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
@@ -1138,32 +1099,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHPCMS/FullPost.php">
+    <entry file="file://$PROJECT_DIR$/PHPCMS/Blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="780">
+          <caret line="229" column="8" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHPCMS/css/publicstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="1564">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHPCMS/Blog.php">
+    <entry file="file://$PROJECT_DIR$/PHPCMS/FullPost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="87" column="84" selection-start-line="87" selection-start-column="84" selection-end-line="87" selection-end-column="84" />
-          <folding>
-            <element signature="e#4705#4712#0#HTML" expanded="true" />
-            <element signature="e#6021#6028#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="2392">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPCMS/Logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -67,8 +67,7 @@ require_once("Include/Functions.php");
 
 <div class="container">
     <div class="blog-header">
-        <h1> the complete cms blog</h1>
-        <p> this blog is developing using php only</p>
+        <br> <br>
     </div>
     <div class="row"> <!--post section-->
         <div class="col-sm-8">
@@ -157,6 +156,7 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                     } ?>
                 </ul>
             </nav>
+            <br>
 
 
         </div>
@@ -189,19 +189,35 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
 
             <!--Recent Posts-->
 
-            <div class="panel panel-primary">
+            <div class="panel panel-info">
                 <div class="panel-heading">
-                    <h2 class="panel-title"><h2>Recent Posts</h2></h2>
+                    <h2 class="panel-title"><h2 id="heading">Recent Posts</h2></h2>
                 </div>
                 <div class="panel-body">
-                    <ul>
-                        <li><a href="#"><h4>Algorithms</h4></a></li>
-                        <li><a href="#"><h4>Data Structures</h4></a></li>
-                        <li><a href="#"><h4>Java</h4></a></li>
-                        <li><a href="#"><h4>Android</h4></a></li>
-                        <li><a href="#"><h4>PHP</h4></a></li>
+                    <?php
+                    $ConnectingDB;
+                    $ViewQuery = "select * from admin_panel order by datetime desc limit 0,5";
+                    $Execute = mysql_query($ViewQuery);
+                    while ($DataRows = mysql_fetch_array($Execute)) {
+                        $Id = $DataRows["id"];
+                        $Title = $DataRows["title"];
+                        $DateTime = $DataRows["datetime"];
+                        $Image = $DataRows["image"];
+                        if (strlen($DateTime) > 11) $DateTime = substr($DateTime, 0, 15);
+                        ?>
+                        <div>
+                            <img class="pull-left" src="Upload/<?php echo htmlentities($Image); ?>" width="50px"
+                                 height="50px">
+                            <a href="FullPost.php?id=<?php echo $Id; ?>"><p id="heading"
+                                                                            style="margin-left: 70px"><?php echo htmlentities($Title) ?></p>
+                            </a>
+                            <p class="description" style="margin-left: 70px;"><?php echo $DateTime; ?></p>
+                            <br>
+                            <hr>
+                        </div>
 
-                    </ul>
+
+                    <?php } ?>
 
                 </div>
 
@@ -210,6 +226,7 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
 
         </div>
     </div>
+    <br>
     <br>
 
 

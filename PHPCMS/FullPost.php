@@ -100,8 +100,9 @@ values ('$DateTime', '$Name', '$Email', '$Comment', 'OFF', '$PostIDFromURL')";
     <div class="blog-header">
         <div><?php echo Message();
             echo SuccessMessage(); ?></div>
-        <h1> the complete cms blog</h1>
-        <p> this blog is developing using php only</p>
+        <!--<h1> the complete cms blog</h1>
+        <p> this blog is developing using php only</p>-->
+        <br> <br>
     </div>
     <div class="row"> <!--post section-->
         <div class="col-sm-8">
@@ -111,6 +112,9 @@ values ('$DateTime', '$Name', '$Email', '$Comment', 'OFF', '$PostIDFromURL')";
                 $Search = $_GET["Search"];
                 $ViewQuery = "SELECT * FROM admin_panel WHERE 
 datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'";
+            } elseif (isset($_GET["id"])) {
+                $ID = $_GET["id"];
+                $ViewQuery = "select * from admin_panel where id='$ID'";
             } else {
                 $PostIDFromURL = $_GET["id"];
                 $ViewQuery = "SELECT * FROM admin_panel where id='$PostIDFromURL' ORDER BY datetime desc";
@@ -189,12 +193,68 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
 
 
         </div>
-        <div style="background: #2b542c" class="col-sm-offset-1 col-sm-3"> <!--sidebar section-->
-            <h2> side section</h2>
-            <p style="color: #2b542c">PHP: Hypertext Preprocessor is a server-side scripting language designed for Web
-                development. It was
-                originally created by Rasmus Lerdorf in 1994; the PHP reference implementation is now produced by The
-                PHP Group</p>
+        <div class="col-sm-offset-1 col-sm-3"> <!--sidebar section-->
+
+            <!--Categories section-->
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2 class="panel-title"><h2 id="heading">Categories</h2></h2>
+                </div>
+                <div class="panel-body">
+
+                    <?php
+                    global $ConnectingDB;
+                    $ViewQuery = "select * from category order by datetime desc";
+                    $Execute = mysql_query($ViewQuery);
+                    while ($DataRows = mysql_fetch_array($Execute)) {
+                        $ID = $DataRows['id'];
+                        $Category = $DataRows['name'];
+                        ?>
+                        <a href="Blog.php?Category=<?php echo $Category; ?>"><span
+                                    id="heading"><?php echo $Category . "<br>"; ?></span></a>
+                    <?php } ?>
+                </div>
+
+            </div>
+
+            <!--Recent Posts-->
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2 class="panel-title"><h2 id="heading">Recent Posts</h2></h2>
+                </div>
+                <div class="panel-body">
+                    <?php
+                    $ConnectingDB;
+                    $ViewQuery = "select * from admin_panel order by datetime desc limit 0,5";
+                    $Execute = mysql_query($ViewQuery);
+                    while ($DataRows = mysql_fetch_array($Execute)) {
+                        $Id = $DataRows["id"];
+                        $Title = $DataRows["title"];
+                        $DateTime = $DataRows["datetime"];
+                        $Image = $DataRows["image"];
+                        if (strlen($DateTime) > 11) $DateTime = substr($DateTime, 0, 15);
+                        ?>
+                        <div>
+                            <img class="pull-left" src="Upload/<?php echo htmlentities($Image); ?>" width="50px"
+                                 height="50px">
+                            <a href="FullPost.php?id=<?php echo $Id; ?>"><p id="heading"
+                                                                            style="margin-left: 70px"><?php echo htmlentities($Title) ?></p>
+                            </a>
+                            <p class="description" style="margin-left: 70px;"><?php echo $DateTime; ?></p>
+                            <br>
+                            <hr>
+                        </div>
+
+
+                    <?php } ?>
+
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 
