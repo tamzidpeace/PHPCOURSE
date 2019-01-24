@@ -41,7 +41,7 @@ require_once("Include/Functions.php");
         <div class="collapse navbar-collapse" id="collapse">
             <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
-                <li class="active"><a href="Blog.php">Blog</a></li>
+                <li class="active"><a href="Blog.php?Page=1">Blog</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact Us</a></li>
@@ -83,6 +83,9 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                 $ShowPostFrom = ($Page * 5) - 5;
                 if ($Page <= 0) $ShowPostFrom = 0;
                 $ViewQuery = "SELECT * FROM admin_panel ORDER BY datetime desc limit $ShowPostFrom,5";
+            } elseif (isset($_GET["Category"])) {
+                $Category = $_GET["Category"];
+                $ViewQuery = "select * from admin_panel where category='$Category'";
             } else {
                 $ViewQuery = "SELECT * FROM admin_panel ORDER BY datetime desc limit 0,5";
             }
@@ -114,10 +117,14 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
             <?php } ?>
             <nav>
                 <ul class="pagination pull-left pagination-lg">
-                    <?php if ($Page > 1) {
-                        ?>
-                        <li><a href="Blog.php?Page=<?php echo $Page - 1; ?>"> &laquo; </a></li>
-                    <?php } ?>
+                    <?php if (isset($Page)) {
+
+
+                        if ($Page > 1) {
+                            ?>
+                            <li><a href="Blog.php?Page=<?php echo $Page - 1; ?>"> &laquo; </a></li>
+                        <?php }
+                    } ?>
                     <?php
                     global $ConnectingDB;
                     $QueryPagination = "select count(*) from admin_panel";
@@ -140,10 +147,14 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
                             <?php }
                         }
                     } ?>
-                    <?php if ($Page > 0 && $Page != $PostPerPage) {
-                        ?>
-                        <li><a href="Blog.php?Page=<?php echo $Page + 1; ?>"> &raquo; </a></li>
-                    <?php } ?>
+                    <?php if (isset($Page)) {
+
+
+                        if ($Page > 0 && $Page != $PostPerPage) {
+                            ?>
+                            <li><a href="Blog.php?Page=<?php echo $Page + 1; ?>"> &raquo; </a></li>
+                        <?php }
+                    } ?>
                 </ul>
             </nav>
 
@@ -151,12 +162,52 @@ datetime like '%$Search%' or category like '%$Search%' or post like '%$Search%'"
         </div>
 
 
-        <div style="background: #2b542c" class="col-sm-offset-1 col-sm-3"> <!--sidebar section-->
-            <h2> side section</h2>
-            <p style="color: #2b542c">PHP: Hypertext Preprocessor is a server-side scripting language designed for Web
-                development. It was
-                originally created by Rasmus Lerdorf in 1994; the PHP reference implementation is now produced by The
-                PHP Group</p>
+        <div class="col-sm-offset-1 col-sm-3"> <!--sidebar section-->
+
+            <!--Categories section-->
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h2 class="panel-title"><h2 id="heading">Categories</h2></h2>
+                </div>
+                <div class="panel-body">
+
+                    <?php
+                    global $ConnectingDB;
+                    $ViewQuery = "select * from category order by datetime desc";
+                    $Execute = mysql_query($ViewQuery);
+                    while ($DataRows = mysql_fetch_array($Execute)) {
+                        $ID = $DataRows['id'];
+                        $Category = $DataRows['name'];
+                        ?>
+                        <a href="Blog.php?Category=<?php echo $Category; ?>"><span
+                                    id="heading"><?php echo $Category . "<br>"; ?></span></a>
+                    <?php } ?>
+                </div>
+
+            </div>
+
+            <!--Recent Posts-->
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title"><h2>Recent Posts</h2></h2>
+                </div>
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="#"><h4>Algorithms</h4></a></li>
+                        <li><a href="#"><h4>Data Structures</h4></a></li>
+                        <li><a href="#"><h4>Java</h4></a></li>
+                        <li><a href="#"><h4>Android</h4></a></li>
+                        <li><a href="#"><h4>PHP</h4></a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
         </div>
     </div>
     <br>
