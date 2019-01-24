@@ -62,7 +62,7 @@ require_once("Include/DB.php");
                 </li>
                 <li><a href="AddNewPost.php"><span class="glyphicon glyphicon-list-alt"></span> Add New Post</a></li>
                 <li><a href="categories.php"><span class="glyphicon glyphicon-tags"></span> Categories</a></li>
-                <li><a href="dashboard.php"><span class="glyphicon glyphicon-user"></span> Manage Admins</a></li>
+                <li><a href="Admins.php"><span class="glyphicon glyphicon-user"></span> Manage Admins</a></li>
                 <li><a href="Comments.php"><span class="glyphicon glyphicon-comment"></span> Comments</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-equalizer"></span> Live Blog</a></li>
                 <li><a href="dashboard.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
